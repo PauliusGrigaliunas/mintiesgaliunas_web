@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <meta charset="utf-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <img id="selfFoto" src="mif-Paulius.jpg" alt="Pauliaus foto" title="Paulius">
+        <h1>Pauliaus Grigaliūno puslapis</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#apiesave">Apie save</a></li>
+            <li><a href="#hobiai">Hobiai</a></li>
+            <li><a href="#paklausk">Klausimai</a></li>
+            <li><a href="#kontaktai">Kontaktai</a></li>
+        </ul>
+    </nav>
+
+    <section id="slider-wrapper-new">
+        <h2 id="apiesave">Apie save</h2>
+        <article>
+            <h3 id="autobiografija">Autobiografija</h3>
+            <p id="simple">Esu Programuotojas. Dirbu Bentley systems jaunesniuoju programuotoju (pradėjau dirbti nuo 2019-08-12)
+                Manau, jog esu išskirtinis šios specialybės atstovas. Esu linksmas, komunikabilus nebijau susipažinti su žmonėmis.
+                Labai keista, bet dažnai yra sudėtinga rasti bendrų temų su kolegomis. Savo laisvaikį mėgstu leisti lauke, kuo toliau nuo IT technologijų.
+                Mėgstu sportuoti, šokti, juokauti... O labai nemėgstu sirgti ir negaliu pakęsti kai tenka kažko ilgai laukti.
+                Pabaigiau Vilniaus universiteto matematikos ir informatikos studentas. Studijuoju programų
+                sistemas.</p>
+                <ol>
+                    <li>Gerai mokiausi prestižinėje Panevėžio Juozo Balčikonio gimnazijoje.</li>
+                    <li>Pabaigiau Vilniaus universiteto matematikos ir informatikos studentas. Studijuoju programų sistemas.</li>
+                    <li>Tęsiu studijas Vilniaus universitete Matematikos ir informatikos fakultete. Siekiu Informatikos magistro laipsnio.</li>
+                </ol>
+            <p id="special">Esu baigęs Panevėžio muzikos mokyklą. Patinka groti pianinu, būgnais bei dainuoti.</p>
+
+        </article>
+        <article>
+            <h3>Įgūdžiai:</h3>
+            <ul>
+                <li>Loginis analitinis mąstymas</li>
+                <li>Geros aukštosios matematikos žinios</li>
+                <li>Moku programuoti: C# .Net, typescript, React</li>
+            </ul>
+
+            <a href="https://github.com/PauliusGrigaliunas">mano github paskyra</a>
+        </article>
+
+        <table>
+            <caption>Kalbų mokėjimas</caption>
+            <tr>
+                <th rowspan="2">Kalba</th>
+                <th colspan="2">Supratimas</th>
+                <th colspan="2">Kalbėjimas</th>
+                <th rowspan="2">Rašymas</th>
+            </tr>
+            <tr>
+
+                <th>Klausymas</th>
+                <th>Skaitymas</th>
+                <th>Žodinis bendravimas</th>
+                <th>Informacijos perteikimas</th>
+            </tr>
+            <tr>
+                <td>Lietuvių</td>
+                <td>C1</td>
+                <td>C1</td>
+                <td>C1</td>
+                <td>C1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>Anglų</td>
+                <td>C1</td>
+                <td>C1</td>
+                <td>C1</td>
+                <td>C1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>Rusų</td>
+                <td>B1</td>
+                <td>B1</td>
+                <td>B1</td>
+                <td>B1</td>
+                <td>A1</td>
+            </tr>
+            <tr>
+                <td>Ispanų</td>
+                <td>A1</td>
+                <td>-</td>
+                <td>A1</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </section>
+    <aside>
+        <h2 id="hobiai">Hobiai</h2>
+        <ol>
+            <li>Važinėti dviračiu</li>
+            <li>Žaisti krepšinį</li>
+            <li>Skaityti knygas</li>
+        </ol>
+        <p>Mėgstamiausias gyvūnas - <b class="red">raudonoji panda</b></p>
+        <img src="red-panda.jpg" alt="raudonoji panda" title="Raudonoji panda">
+        <table id="mytable">
+            <tr>
+                <th>Numeris </th>
+                <th>Auginamos žuvytės</th>
+            </tr>
+            <tr id="r1">
+                <td>1</td>
+                <td>Bocijos klounas</td>
+            </tr>
+            <tr id="r2">
+                <td>2</td>
+                <td>Diskusas</td>
+            </tr>
+            <tr id="r3">
+                <td>3</td>
+                <td>Neonas</td>
+            </tr>
+            <tr id="r4">
+                <td>4</td>
+                <td>Šamas</td>
+            </tr>
+            <tr id="r5">
+                <td>5</td>
+                <td>Auksinė žūvelė</td>
+            </tr>
+        </table>
+        <br>
+        <form name="hobbyForm">
+            įvesti mirusios žuvelės numerį: <input type="number" name="fnumber"><br>
+        </form>
+        <button class="buttons2" onclick="deleteParagraph()">Ištrinti žūvelę</button>
+    </aside>
+    <br>
+    <section>
+        <h2 id="ask">Paklausk</h2>
+        <h3><em>Registracija</em> susitikimui</h3>
+        <form name="myForm" action="/action_page.php">
+            Vardas: <input type="text" name="vardas" autofocus><br>
+            Pavardė: <input type="text" name="pavarde"><br>
+            Telefono numeris: <input type="text" name="telefonas" onchange="ShowHideFunction()"><br>
+            <div id="Hideable"> Svarbus laukas!
+                <p class="red">Telefono numeris turi būti sudarytas iš 9 skaičių</p>
+            </div>
+            Elektroninis pašto adresas: <input type="email" name="email"><br>
+            Diena: <input type="date" name="metai">
+            Valanda: <select>
+                <option value="0">0:00</option>
+                <option value="1">1:00</option>
+                <option value="2">2:00</option>
+                <option value="3">3:00</option>
+                <option value="4">4:00</option>
+                <option value="5">5:00</option>
+                <option value="6">6:00</option>
+                <option value="7">7:00</option>
+                <option value="8">8:00</option>
+                <option value="9">9:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+                <option value="19">19:00</option>
+                <option value="20">20:00</option>
+                <option value="21">21:00</option>
+                <option value="22">22:00</option>
+                <option value="23">23:00</option>
+            </select><br>
+            Dalyvių skaičius: <input type="number" name="dalyviųSkaičius"><br><br>
+            <input type="submit" value="Patikrinti formą" onclick="return validateForm()">
+            <input type="submit" value="Patvirtinti formą" onclick="return addEnteredData()">
+        </form>
+
+
+        <h4>Užsiregistravę: </h4>
+        <table id="editableTable">
+            <thead>
+                <tr>
+                    <th>Vardas</th>
+                    <th>Pavardė</th>
+                    <th>Telefono numeris</th>
+                    <th>Elektroninio pašto adresas</th>
+                    <th>Laikas</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+
+        <button class="buttons2" onclick="postFormData()">POST</button>
+        <button class="buttons2" onclick="getFormData()">GET</button>
+        <table id="myTable2">
+            <thead>
+                <tr>
+                    <th>Vardas</th>
+                    <th>Pavardė</th>
+                    <th>Telefono numeris</th>
+                    <th>Elektroninio pašto adresas</th>
+                    <th>Laikas</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+
+    </section>
+    <footer>
+        <h2 id="contacts">Kontaktai</h2>
+        <button class="buttons2" onclick="setBlack()">Pakeisti spalvą į juodą</button><br>
+        <button class="buttons2" onclick="setTextDefault()">Gyvenamoji vieta</button>
+        <button class="buttons2" onclick="setTextNew()">Gimtoji vieta</button>
+        <p id="myText">Gyvenamasis adresas: Didlaukio g. 59, Vilnius</p>
+        <p>Telefono numeris: +37060787311</p>
+        <p>Elektroninis paštas: paulius.grigaliunas.pg@gmail.com</p>
+    </footer>
+
+</body>
+
+</html>

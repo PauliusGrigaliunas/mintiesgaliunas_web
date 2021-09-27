@@ -1,0 +1,157 @@
+@media only screen and (max-width: 615px) {
+    body {
+        background-color: lightblue;
+    }
+    header img{
+        float: unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    aside {
+        width: 95%;
+        padding-left: unset !important;
+        margin-left: unset !important;
+        float: unset !important;
+        box-shadow: unset !important;
+    }
+    aside img{
+        float: unset;
+    }
+}
+/*header*/
+
+body {
+    background-color: rgb(210, 223, 228);
+}
+
+
+header{
+    background-color: yellow;
+}
+
+/*navigation*/
+nav{
+    background-color: darkblue;
+    border: solid black 5px;
+    padding: 25px 0 25px 0;
+}
+/*įpėdinio sektorius*/
+nav li{
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    font-size: 120%;
+}
+
+nav li > a{
+    text-decoration: none;
+    color: white;
+}
+nav li > a:link { color: red }
+nav li > a:visited{ color: azure;}
+nav li > a:hover { color: gold; }
+
+/*section*/
+section{
+    margin:10px;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+/*footer*/
+footer{
+    background-color: yellowgreen;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*img*/
+img{
+    display: block;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 200px;
+    border: solid black 1px;
+    padding: 2px;
+
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
+
+
+/*vaiko sektorius*/
+h3 > em {
+    text-align: center;
+    color: red;
+}
+article > p{
+    text-indent: 30px;
+	font-family:"Times New Roman";
+	margin:10px;
+}
+p{
+	font-family:'Fira Sans', sans-serif !important;
+	margin:10px;
+}
+
+.red{
+    color: red;
+}
+
+section > a:link { color: red }
+section > a:visited { color: blueviolet }
+section > a:hover { color: blue }
+section > a:active { color: lime }
+
+table{
+    border-collapse: collapse;
+    margin:10px;
+}
+tr{
+    border: 2px solid black;
+    background:  lightcoral;
+}
+th{
+    border: 3px solid black;
+    background: inherit
+}
+
+td{
+    border: inherit;
+    text-align: center;
+    background: lemonchiffon;
+}
+
+
+ form {
+    line-height: 1.6
+ }
+ /* attribute */
+ *[required]{
+	border: 2px solid #B40431;
+	outline: none;
+}
+#special{
+    font-size: 16pt;
+    color: rebeccapurple;
+    text-decoration: underline;
+}
